@@ -1,10 +1,10 @@
 # Autonomous Vehicle Collision Avoidance Simulation
 
-This project implements a collision avoidance simulation framework for autonomous vehicles using Model Predictive Control (MPC) and vehicle dynamics. The simulation framework is based on the methodology described in our reference paper:
+This project implements a collision avoidance simulation framework for autonomous vehicles using Model Predictive Control (MPC) and vehicle dynamics. The simulation framework is based on the methodology described in the reference paper:
 
 **Reference Paper:**  
-*Title: A MPC COMBINED DECISION MAKING AND TRAJECTORY PLANNING FOR AUTONOMOUS VEHICHLE COLLISION AVOIDANCE*  
-*Authors: Manel Ammour, Rodolfo Orjuela, and Michel Basset* 
+*Title: [A MPC COMBINED DECISION MAKING AND TRAJECTORY PLANNING FOR AUTONOMOUS VEHICHLE COLLISION AVOIDANCE](https://ieeexplore.ieee.org/document/9913938)*  
+*Authors: Manel Ammour, Rodolfo Orjuela, and Michel Basset*  
 *Published in: IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS, VOL. 23, NO. 12 DECEMBER 2022*
 
 The project integrates several modules:
@@ -76,14 +76,6 @@ It is recommended to run the project in a Python virtual environment. Follow the
    pip install -r requirements.txt
    ```
 
-   *(If you don't already have a `requirements.txt`, create one with the following basic entries:)*
-
-   ```
-   numpy>=1.18.0
-   matplotlib>=3.3.0
-   casadi>=3.5.5
-   ```
-
 ## Compile and Run Instructions
 
 ### Running the Simulation
@@ -125,8 +117,8 @@ Further details, including mathematical formulations and experimental results, c
 
 ## Acknowledgments
 
-This project was developed as part of research in autonomous vehicle collision avoidance. Special thanks to [collaborators, mentors, institutions, etc.].
+This project was developed as part of research in autonomous vehicle collision avoidance. Special thanks to [Prof. Pradumn Kumar Pandey](https://scholar.google.co.in/citations?user=7kClcuYAAAAJ&hl=en).
 
 ---
 
-For any questions or issues, please create an issue in this repository or contact the project maintainer.
+For any questions or issues, please create an issue in this repository or contact the project maintainer [here](tamakuwala_vs@cs.iitr.ac.in).
